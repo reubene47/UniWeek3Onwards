@@ -1,11 +1,15 @@
 import os
 import subprocess
 
+# === Task 1 ===
+
 # apples_num = int(input("How many apples should I remove?"))
 
 # while apples_num > 0:
 #     print("Removed apple.")
 #     apples_num -= 1
+
+# === Task 2 ===
 
 # subprocess.run(["cls"], shell=True)
 
@@ -20,13 +24,26 @@ import subprocess
 #     print(f"Avoiding... Done! {obstacles} obstacles avoided.")
 # print("\nAll obstacles have been avoided.")
 
-bars = int(input("How many bars should be charged?\n"))
+# === Task 3 ===
 
-bars_charged = 1
+# subprocess.run(["cls"], shell=True)
 
-print("")
+# bars = int(input("How many bars should be charged?\n"))
 
-while bars_charged < bars:
-    print(f"Charging: {"█" * bars_charged}")
-    bars_charged += 1
-print("\nThe battery is fully charged.")
+# bars_charged = 1
+
+# print("")
+
+# while bars_charged < bars:
+#     print(f"Charging: {"█" * bars_charged}")
+#     bars_charged += 1
+# print("\nThe battery is fully charged.")
+
+# === Task 4 ===
+
+subprocess.run(["cls"], shell=True)
+
+phrase = input("Please enter a phrase:\n")
+phrase_chars = len(phrase)
+
+print("Hi " * phrase_chars)
