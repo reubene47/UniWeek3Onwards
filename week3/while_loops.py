@@ -50,14 +50,30 @@ import subprocess
 
 # === Task 5 ===
 
+# subprocess.run(["cls"], shell=True)
+
+# print("Calculating the sum of the first 100 numbers...")
+
+# num = 1
+# total = 0
+
+# while num <= 100:
+#     total = total + num
+#     num = num + 1
+# print(f"...Done! The answer is {total}")
+
+# === Task 6 ===
+
 subprocess.run(["cls"], shell=True)
 
-print("Calculating the sum of the first 100 numbers...")
-
-num = 1
+current = 1
 total = 0
 
-while num <= 100:
+amount = int(input("How many numbers should I sum up? "))
+print("")
+
+while current <= amount:
+    num = int(input(f"Please enter number {current} of {amount}: "))
     total = total + num
-    num = num + 1
-print(f"...Done! The answer is {total}")
+    current = current + 1
+print(f"\nThe answer is {total}")
