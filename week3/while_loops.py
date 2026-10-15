@@ -41,9 +41,23 @@ import subprocess
 
 # === Task 4 ===
 
+# subprocess.run(["cls"], shell=True)
+
+# phrase = input("Please enter a phrase:\n")
+# phrase_chars = len(phrase)
+
+# print("Hi " * phrase_chars)
+
+# === Task 5 ===
+
 subprocess.run(["cls"], shell=True)
 
-phrase = input("Please enter a phrase:\n")
-phrase_chars = len(phrase)
+print("Calculating the sum of the first 100 numbers...")
 
-print("Hi " * phrase_chars)
+num = 1
+total = 0
+
+while num <= 100:
+    total = total + num
+    num = num + 1
+print(f"...Done! The answer is {total}")
