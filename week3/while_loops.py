@@ -64,16 +64,20 @@ import subprocess
 
 # === Task 6 ===
 
+# subprocess.run(["cls"], shell=True)
+
+# current = 1
+# total = 0
+
+# amount = int(input("How many numbers should I sum up? "))
+# print("")
+
+# while current <= amount:
+#     num = int(input(f"Please enter number {current} of {amount}: "))
+#     total = total + num
+#     current = current + 1
+# print(f"\nThe answer is {total}")
+
+# === Task 7 ===
+
 subprocess.run(["cls"], shell=True)
-
-current = 1
-total = 0
-
-amount = int(input("How many numbers should I sum up? "))
-print("")
-
-while current <= amount:
-    num = int(input(f"Please enter number {current} of {amount}: "))
-    total = total + num
-    current = current + 1
-print(f"\nThe answer is {total}")
