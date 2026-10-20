@@ -19,10 +19,23 @@
 
 # === Task 8 ===
 
-distance = int(input("How far are we from the target?\n"))
+# distance = int(input("How far are we from the target?\n"))
 
-for i in range(distance):
-    print(f"{distance} steps remaining")
-    distance -= 1
+# for i in range(distance):
+#     print(f"{distance} steps remaining")
+#     distance -= 1
 
-print("Target achieved!")
+# print("Target achieved!")
+
+# === Task 9 ===
+
+# brightness = int(input("What level of brightness is required?\n"))
+
+# print("\nAdjusting brightness...\n")
+
+# for i in range(brightness):
+#     print(f"Brightness level: {"*" * brightness}")
+#     brightness += 1
+
+# === Task 10 ===
+
