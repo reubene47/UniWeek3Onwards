@@ -39,9 +39,19 @@
 
 # === Task 10 ===
 
-word = input("What word do you see?\n")
+# word = input("What word do you see?\n")
 
-print("\nDisplaying index positions...")
+# print("\nDisplaying index positions...")
 
-for i in range(len(word)):
-    print(f"Index {i}: {word[i]}")
+# for i in range(len(word)):
+#     print(f"Index {i}: {word[i]}")
+
+# === Task 11 ===
+
+word = input("What phrase do you want to see in reverse?")
+
+print("Reversing...")
+print(f"The phrase is:", end="")
+
+for i in range (len(word) -1, -1, -1):
+    print(word[i], end="")
