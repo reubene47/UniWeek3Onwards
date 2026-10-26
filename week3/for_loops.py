@@ -48,10 +48,19 @@
 
 # === Task 11 ===
 
-word = input("What phrase do you want to see in reverse?")
+# phrase = input("What phrase do you want to see in reverse?")
 
-print("Reversing...")
-print(f"The phrase is:", end="")
+# print("Reversing...")
+# print(f"The phrase is:", end="")
 
-for i in range (len(word) -1, -1, -1):
-    print(word[i], end="")
+# for i in range (len(phrase) -1, -1, -1):
+#     print(phrase[i], end="")
+
+# === Task 12 ===
+
+phrase = input("What phrase do you want to print?")
+
+print("The phrase is:")
+
+for i in range(len(phrase)):
+    print(phrase[i])
