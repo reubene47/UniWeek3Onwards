@@ -39,3 +39,9 @@
 
 # === Task 10 ===
 
+word = input("What word do you see?\n")
+
+print("\nDisplaying index positions...")
+
+for i in range(len(word)):
+    print(f"Index {i}: {word[i]}")
