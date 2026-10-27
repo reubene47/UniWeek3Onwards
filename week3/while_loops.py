@@ -77,7 +77,3 @@ import subprocess
 #     total = total + num
 #     current = current + 1
 # print(f"\nThe answer is {total}")
-
-# === Task 7 ===
-
-subprocess.run(["cls"], shell=True)
