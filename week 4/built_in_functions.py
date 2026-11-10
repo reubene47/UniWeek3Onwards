@@ -1,3 +1,5 @@
+# == Task 1 ===
+
 # print("Program started!\n")
 
 # while True:
@@ -13,18 +15,20 @@
 
 # print("Program ended!")
 
-print("Program started!\n")
+# === Task 2 ===
 
-# integer check
-try:
-    ascii = int(input("Please enter an ASCII code:"))
-except ValueError:
-    print("Please enter a valid integer")
+# print("Program started!\n")
 
-if ascii < 32 or ascii > 126:
-    print("Please enter a valid ASCII code between 32 and 126")
-else:
-    char = chr(ascii)
-    print(f"The character respresented by the ASCII code {ascii} is {char}")
+# # integer check
+# try:
+#     ascii = int(input("Please enter an ASCII code:"))
+# except ValueError:
+#     print("Please enter a valid integer")
 
-print("Program ended!")
+# if ascii < 32 or ascii > 126:
+#     print("Please enter a valid ASCII code between 32 and 126")
+# else:
+#     char = chr(ascii)
+#     print(f"The character respresented by the ASCII code {ascii} is {char}")
+
+# print("Program ended!")
