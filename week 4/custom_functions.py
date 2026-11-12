@@ -64,13 +64,38 @@
 
 # === Task 8 ===
 
-def display_ladder(steps):
-    for step in range(steps):
-        print("| |\n***")
+# def display_ladder(steps):
+#     for step in range(steps):
+#         print("| |\n***")
 
-def create_ladder():
-    steps = int(input("How many steps remain?"))
+# def create_ladder():
+#     steps = int(input("How many steps remain?"))
 
-    display_ladder(steps)
+#     display_ladder(steps)
 
-create_ladder()
+# create_ladder()
+
+# === Task 9 ===
+
+def sum_weights(character_weight, inventory_weight):
+    total_weight = character_weight + inventory_weight
+    return total_weight
+
+def calc_avg_weight(character_weight, inventory_weight):
+    avg_weight = sum_weights(character_weight, inventory_weight) / 2
+    return avg_weight
+
+def run():
+    character_weight = int(input("What is the weight of the character?"))
+    inventory_weight = int(input("What is the weight of their inventory?"))
+
+    calculate = input("What would you like to calculate? (sum or average)")
+
+    if calculate == "sum":
+        print(sum_weights(character_weight, inventory_weight))
+    elif calculate == "average":
+        print(calc_avg_weight(character_weight, inventory_weight))
+    else:
+        print("Can't do that")
+
+run()
