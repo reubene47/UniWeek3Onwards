@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-
 def display_line(x, y):
     plt.plot(x, y)
     plt.show()
